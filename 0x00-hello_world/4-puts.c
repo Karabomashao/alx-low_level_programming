@@ -2,6 +2,7 @@
 
 /**
  * main - This is a short description
+ * return: The value of void
  */
 
 int main(void)
