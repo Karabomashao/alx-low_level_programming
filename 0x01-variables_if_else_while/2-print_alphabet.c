@@ -2,7 +2,7 @@
 
 /**
  *main - use a putchar function to display a-z alphaberts
- *Return: true if 0 else otherwise 
+ *Return: true if 0 else otherwise
  */
 int main(void)
 {
