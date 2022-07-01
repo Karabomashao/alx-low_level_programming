@@ -2,7 +2,7 @@
 
 /**
  * main - Returns base 10 digits
- * Retugn: True if 0 false otherwise
+ * Return: True if 0 false otherwise
  */
 int main(void)
 {
