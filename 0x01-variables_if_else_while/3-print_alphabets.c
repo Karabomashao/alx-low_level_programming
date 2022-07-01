@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main - return aA-zZ
  *
- *Return -
+ *Return: true if 0 false otherwise
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(CH);
 	}
-	putchar('\n');
+	putchar('gn');
 	return (0);
 }
 
