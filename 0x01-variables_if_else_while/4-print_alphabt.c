@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main - Return a-z except q and e
  *
- * Return -
+ * Return: true if 0 false otherwise
  */
 int main(void)
 {
