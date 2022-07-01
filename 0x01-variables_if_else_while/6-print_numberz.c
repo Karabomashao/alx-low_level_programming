@@ -2,7 +2,7 @@
 
 /**
  * main - Returns base 10 digits
- * Return: True if 0 false otherwise
+ * Retugn: True if 0 false otherwise
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	for (dig = 0; dig <= 9; dig++)
 	{
-	putchar(dig);
+		putchar(dig + '0');
 	}
 	putchar('\n');
 	return (0);
