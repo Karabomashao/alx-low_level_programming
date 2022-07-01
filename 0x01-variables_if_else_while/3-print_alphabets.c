@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * main -
+ *
+ *Return -
+ */
+int main(void)
+{
+	char ch, CH;
+
+	for (ch = 'a' && Ch = "A"; ch <= 'z' && CH <= 'Z'; c++)
+	{
+		putchar(ch);
+		putchar(CH);
+	}
+	putchar('/n');
+	return (0);
+}
+
