@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - returns base 10 digits
- * Retun: True if 0 false otherwise
+ * main - Returns base 10 digits
+ * Return: True if 0 false otherwise
  */
 int main(void)
 {
