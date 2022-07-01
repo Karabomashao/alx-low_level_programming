@@ -2,7 +2,7 @@
 
 /**
  * main - print base 10 numerals from 0 - 9
- * Return - True if 0 false otherwise
+ * Return: True if 0 false otherwise
  */
 int main(void)
 {
