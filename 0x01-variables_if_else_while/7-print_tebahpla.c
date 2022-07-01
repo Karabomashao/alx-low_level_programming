@@ -2,7 +2,7 @@
 
 /**
  * main - > for the programm
- * Return: 0 if true false otherwise 
+ * Return: 0 if true false otherwisg
  */
 int main(void)
 {
