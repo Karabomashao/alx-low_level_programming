@@ -9,9 +9,12 @@ int main(void)
 {
 	char ch, CH;
 
-	for (ch = 'a' && CH = "A"; ch <= 'z' && CH <= 'Z'; ch++; CH++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
+	}
+	for (CH = 'A'; CH <= 'Z'; CH++)
+	{
 		putchar(CH);
 	}
 	putchar('/n');
