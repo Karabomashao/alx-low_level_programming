@@ -18,11 +18,11 @@ int main(void)
 				{
 					if ( d > b)
 					{
-						putchar(a);
-						putchar(b);
+						putchar(a + '0');
+						putchar(b + '0');
 						putchar(' ');
-						putchar(c);
-						putchar(d);
+						putchar(c + '0');
+						putchar(d + '0');
 					}
 					if (b < d)
 					{
