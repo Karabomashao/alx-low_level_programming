@@ -1,38 +1,35 @@
-#include <stdio.h>
-
 /**
  * main - Entry point
- * Return: Always 0 (Successful)
+ * Return: Always 0 (successful)
  */
 int main(void)
 {
-	int a, b, c, d;
+	
+	int a, b, c, d, i, j;
 
-	for (a = 0; a <= 9; a++)
+	for (i = 0; i < 100; i++)
 	{
-		for (b = 0; b <= 8; b++)
+		a = i / 10; /* doubles fnum */
+		b = i % 10; /* singles fnum */
+		for (j = 0; j < 100; j++)
 		{
-			for (c = 0; c <= 9; c++)
+			c = j / 10; /* doubles snum */
+			d = j % 10; /* singles snum */
+			if (a < c || (a == c && b < d))
 			{
-				for (d = 1; d <= 9; d++)
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(32);
+				putchar(c + '0');
+				putchar(d + '0');
+				if (!(a == 9 && b == 8))
 				{
-					if ( d > b)
-					{
-						putchar(a + '0');
-						putchar(b + '0');
-						putchar(' ');
-						putchar(c + '0');
-						putchar(d + '0');
-					}
-					if (b < d)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(44);
+					putchar(32);
 				}
 			}
 		}
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
