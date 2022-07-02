@@ -22,8 +22,8 @@ int main(void)
 				}
 				if (a < b && a < c && a != 7)
 				{
-					putchar(',')
-					putchar(' ')
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
