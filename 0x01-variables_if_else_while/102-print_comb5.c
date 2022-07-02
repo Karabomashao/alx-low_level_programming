@@ -20,14 +20,14 @@ int main(void)
 					{
 						putchar(a);
 						putchar(b);
-						purchar(' ');
+						putchar(' ');
 						putchar(c);
 						putchar(d);
 					}
 					if (b < d)
 					{
-						putchar(',')
-						putchar(' ')
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
