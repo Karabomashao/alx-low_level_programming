@@ -12,7 +12,8 @@ int main(void)
 	{
 		for (m = 1; m <= 9; m++)
 		{
-			if (m > n)
+		if (m > n)
+			break;
 			putchar(n + '0');
 			putchar(m + '0');
 			if (n != 8 || m != 9)
