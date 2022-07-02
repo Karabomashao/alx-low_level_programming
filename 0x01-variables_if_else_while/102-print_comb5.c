@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - Entry point
  * Return: Always 0 (successful)
@@ -5,7 +7,7 @@
 int main(void)
 {
 	int i, j;	
-	int a, b, c, d;
+gint a, b, c, d;
 
 	for (i = 0; i < 100; i++)
 	{
