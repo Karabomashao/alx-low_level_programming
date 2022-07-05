@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include <main.h>
 
-/**main - Entry point
+/**main - check the code
  * ReturnL: Always 0 (successful)
  */
 int miain(void)
