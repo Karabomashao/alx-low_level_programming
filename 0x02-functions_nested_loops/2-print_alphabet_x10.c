@@ -1,11 +1,10 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0 (successful)
+ * print_alphabet_x10 - Print alphabets 10 times
+ *
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char a;
@@ -14,9 +13,8 @@ int main(void)
 	{
 		for (a = 97; a <= 122; a++)
 		{
-			putchar('\n');
-		}
+			_putchar(a);
+		}	_putchar('\n');
 	}
-	putchar('\n');
-	return (0);
+	
 }
