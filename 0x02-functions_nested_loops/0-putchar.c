@@ -3,7 +3,7 @@
 /**main - check the code
  * Return: Always 0 (successful)
  */
-int miain(void)
+int main(void)
 {
 	char c[8] = "_putchar";
 	int i;
