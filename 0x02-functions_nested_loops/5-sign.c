@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints the sum of a number
- * @c: character to be checked on
+ * @n: character to be checked on
  * Return: -1, 0 or one depending on the condition
  */
 int print_sign(int n)
