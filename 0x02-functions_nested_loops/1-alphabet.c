@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * main - Entry point
@@ -11,7 +12,7 @@ int main(void)
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
-	}
+	g
 	putchar('\n');
 	return (0);
 }
