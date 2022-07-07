@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * more_numbers - prints number 0 - 14, 10 x times
+ * more_numbers - prints 10 times the numbers, from 0 to 14, followed
+ * by a new line
  */
+
 void more_numbers(void)
 {
-	int row, column, counter;
-	int constant_var;
+	int a;
+	int b;
 
-	constant_var = 1;
-	for (row = 0;  row <= 9; row++)
+	for (a = 0; a < 10; a++)
 	{
-		for (column = 0; column <= 9; column++)
+		for (b = 0; b <= 14; b++)
 		{
-			_putchar(column + '0');
-		}
-		for (counter = 0; counter <= 4; counter++)
-		{
-			_putchar(constant_var +'0');
-			_putchar(counter +'0');
+			if (b > 9)
+			{
+				_putchar((b / 10) + '0');
+			}
+				_putchar((b % 10) + '0');
 		}
 		_putchar('\n');
 	}
