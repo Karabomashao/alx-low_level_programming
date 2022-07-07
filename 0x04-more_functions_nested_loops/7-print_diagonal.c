@@ -20,12 +20,12 @@ void print_diagonal(int n)
 		{
 			_putchar(diagonal);
 			_putchar('\n');
-		}
-		for (i = 1; i <= column; i++)
-		{
-			if (column < n)
+			for (i = 1; i <= column; i++)
 			{
-				_putchar(' ');
+				if (column < n)
+				{
+					_putchar(' ');
+				}
 			}
 		}
 	}
