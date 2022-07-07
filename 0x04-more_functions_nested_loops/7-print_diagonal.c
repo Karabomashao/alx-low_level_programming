@@ -10,13 +10,13 @@ void print_diagonal(int n)
 	char diagonal;
 
 	diagonal = '\\';
-	for (column = 1; column <= n; column++)
+	if (n <= 0)
 	{
-		if ( n <= 0)
-		{
-			_putchar('\n');
-		}
-		else
+		_putchar('\n');
+	}
+	else
+	{
+		for (column = 1; column <= n; column++)
 		{
 			_putchar(diagonal);
 			_putchar('\n');
