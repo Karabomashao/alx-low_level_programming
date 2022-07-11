@@ -3,7 +3,7 @@
 
 /**
  * puts_half - pints last half of string
- * @:str - parameter
+ * @str: parameter
  */
 void puts_half(char *str)
 {
