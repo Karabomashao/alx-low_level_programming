@@ -14,7 +14,7 @@ void rev_string(char *s)
 	for (i = 0; i <= middle; i++) /* iterate until middle of string */
 	{
 		temp_var = s[i];
-		s[i] = s[len_str - i -1]; /* overrides s[i] and gives corresponding value */
-		s[len_str - i -1] = temp_var;
+		s[i] = s[len_str - i - 1]; /* overrides s[i] and gives corresponding value */
+		s[len_str - i - 1] = temp_var;
 	}
 }
