@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts2 - prints every other character 
+ * puts2 - prints every other character
  * @str: parameter
  */
 void puts2(char *str)
@@ -10,7 +10,7 @@ void puts2(char *str)
 	int i;
 	int len_str = strlen(str);
 
-	for (i = 0; i <= len_str; i += 2)
+	for (i = 0; i <= len_str - 1; i += 2)
 	{
 		_putchar(str[i]);
 	}
