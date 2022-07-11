@@ -3,6 +3,7 @@
 
 /**
  * print_rev - print string in reverse
+ * @s: parameter s
  */
 void print_rev(char *s)
 {
