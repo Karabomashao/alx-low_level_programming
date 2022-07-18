@@ -6,7 +6,7 @@
  * @dest: parameter dest
  * @src: parameter src
  *@n: int n
- * Return; copied memory area
+ * Return: copied memory area
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
